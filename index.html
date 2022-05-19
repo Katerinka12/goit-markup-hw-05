@@ -14,10 +14,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
-      rel="stylesheet"
-    />
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+  href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+  rel="stylesheet">
+
     <link rel="stylesheet" href="./css/styles.css" />
     <title>WebStudio</title>
   </head>
@@ -127,29 +132,32 @@
         <div class="container">
           <h2 class="works-title">Чем мы занимаемся</h2>
           <ul class="works-list">
-            <li>
+            <li class="work-img">
               <img
                 src="./images/keyboard.jpg"
                 alt="Руки набирают код на клавиатуре."
                 width="370"
                 height="294"
               />
+              <p class="work-name"> Десктопные приложения</p>
             </li>
-            <li>
+            <li class="work-img">
               <img
                 src="./images/laptop.jpg"
                 alt="Смотрят на телефон и сравнивают с компьютером."
                 width="370"
                 height="294"
               />
+              <p class="work-name"> Мобильные приложения</p>
             </li>
-            <li>
+            <li class="work-img">
               <img
                 src="./images/pods.jpg"
                 alt="Подбирают цветовую гамму на планшете"
                 width="370"
                 height="294"
               />
+              <p class="work-name"> Дизайнерские решения</p>
             </li>
           </ul>
         </div>
@@ -513,5 +521,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
